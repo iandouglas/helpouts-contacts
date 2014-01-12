@@ -38,7 +38,7 @@ function injectGPlus() {
             // already written this link so the "if" check above doesn't
             // happen on subsequent runs.
             guestSpan.innerHTML = '<a data-helpouts-contact="true" style="margin: 0px 5px;"' +
-                'href="http://plus.google.com/' + googleID + '">google+</a>' + guestSpan.innerHTML;
+                'href="http://plus.google.com/' + googleID + '" target="_blank">google+</a>' + guestSpan.innerHTML;
         }
     }
 }
