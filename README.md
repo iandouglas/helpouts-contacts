@@ -21,12 +21,22 @@ been tested on v31 stable, v32 beta and a Canary build.
 Installation
 ------------
 
+If you have a version of Chrome earlier than v33:
+
 1. Click on the file "helpouts helper extension.crx" in the list of files above.
 1. On the next page, look for the buttons which say Open, Raw, History and Delete. Click the "Raw" button. This should prompt Chrome to download the extension and place it in your downloads folders.
 1. In Chrome, go to the URL chrome://extensions
 1. At the top right you should see a checkbox called "Developer Mode", make sure that checkbox is checked.
 1. Copy the .crx file from here, and drag it over your browser window where you are viewing your extensions. Chrome should install it without any questions.
 1. Go to http://helpouts.google.com/yourhelpouts after logging into Helpouts, and see if the links show up. If not, hit Refresh.
+
+For Chrome 33 and later:
+
+1. Follow the first three steps above.
+1. Rename the .crx file to have a .zip extension instead
+1. Unpack the .zip file into a folder
+1. In the Chrome Extensions page, click on the butotn labelled "Load Unpacked Extension..."
+1. Navigate to the folder where the .zip file was unpacked.
 
 Why is this on GitHub?
 ----------------------
