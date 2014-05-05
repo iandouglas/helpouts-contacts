@@ -17,7 +17,7 @@ function injectGPlus() {
     node = nodeList[i];
 
     // firstDiv is where we find everything we want.
-    firstDiv = node.querySelector('[data-tee-test]').querySelectorAll('div')[4].querySelector('div');
+    firstDiv = node.querySelector('[data-tee-test]').querySelectorAll('div')[5].querySelector('div');
     // first, we grab the Google ID of the user from an attribute, to
     // use later on
     firstLink = firstDiv.querySelector('a');
